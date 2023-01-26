@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NC nature</title>
+  <!-- font -->
+  <link href="./font/font.css" rel="stylesheet" />
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="./media/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./media/apple-icon-180x180.png">
+  <!-- icon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.css"
+    integrity="sha512-jxGmKjC/OykrTklkNK2NgnhNtKtUAADFY+rvSi3nA7dbaPRfjrSXYxHqX8iq5N6WTOntqEQZrEwW3L84sirfKQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <!-- swiper -->
+  <!-- css -->
+  <link href="./css/main.css?version=20221214" rel="stylesheet" />
+  <link href="./css/animate.min.css?version=20221214" rel="stylesheet" />
+  <!-- jquery -->
+  <!-- main js -->
+  <!-- <script src="./js/jquery3.6.js"></script> -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="./js/main.js?version=20221214"></script>
+</head>
+
+<body style="position:relative;" class="sty">
+  <div class="top">
+    <ion-icon name="arrow-up-circle-outline"></ion-icon>
+
+  </div>
+  <!-- pop up -->
+  <div class="pop_lang mask">
+    <div class="pop_lang_box layer">
+      <div class="pop_title close">
+        LANGUAGE
+        <div class="close_btn"><ion-icon name="close-circle-outline"></ion-icon></div>
+      </div>
+      <div class="pop_list">
+        <p>Please select your preferred language.</p>
+        <select name="" id="lang" class="pop_lang_select">
+          <option value="ko" selected>KOREAN</option>
+          <option value="en">ENGLISH</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <!-- pop up -->
+  <!-- top -->
+
+  <!-- top -->
+  <!-- wrap start -->
+  <div class="wrapper">
+    <div class="kakao">
+      <a href="http://pf.kakao.com/_pTksb" target="blank">카카오톡 플러스 친구 추가하고 프리미엄 혜택 받아가세요!! </a>
+    </div>
+
+
+    <div class="header">
+
+      <div class="header_logo">
+        <img src="./media/header_logo2.png" alt="로고" />
+      </div>
+      <div class="gnb">
+        <a>회사소개</a>
+        <a>브랜드</a>
+        <a>스토리</a>
+        <a>NEWS</a>
+        <a>CONTACT US</a>
+      </div>
+      <div class="quick_menu">
+        <ion-icon name="search-outline"></ion-icon>
+        <ion-icon name="earth-outline"></ion-icon>
+      </div>
+    </div>
+    <div class="gnb gnb_sub" style="display:none;"></div>
+
+    <!-- header end -->
+    <!-- main container start -->
+    <div class="container" style="_display:none;">
+      <div class="main_visual main_visual1">
+        <video src="./media/main.mp4" type="video/mp4" poster="" loop autoplay muted></video>
+      </div>
+      <div class="main_visual main_visual2">
+        <div class="visual2_txt">
+          <h1>Meet Our Brands</h1>
+          <h2>엔씨네이처의 브랜드를 소개합니다.</h2>
+        </div>
+        <div class="brands">
+          <div class="brands_tab osti">
+            <div class="brands_tab_box">
+              <img src="./media/osti.jpg" alt="이미지" />
+            </div>
+            <a href="" class="btn hover_btn" id="brand1"><img src="./media/오스티 로고.png" alt="이미지"></a>
+          </div>
+          <div class="brands_tab havita">
+            <div class="brands_tab_box">
+              <img src="./media/havita.jpg" alt="이미지" />
+            </div>
+            <a href="" class="btn hover_btn" id="brand2"><img src="./media/해비타 기본형 로고.png" alt="이미지"></a>
+          </div>
+          <div class="brands_tab caffein">
+            <div class="brands_tab_box">
+              <img src="./media/caffein.jpg" alt="이미지" />
+            </div>
+            <a href="" class="btn hover_btn" id="brand3"><img src="./media/카페틴 로고.png" alt="이미지"></a>
+          </div>
+        </div>
+      </div>
+      <div class="main_visual main_visual3">
+        <div class="visual3_txt">
+          <h1>Nutrition Care from Nature</h1>
+          <h2>엔씨네이처가 걸어온 길</h2>
+          <div class="visual3_img mobile_visual3_img">
+            <img src="./media/CK_yaytg138779.jpg" alt="이미지" />
+          </div>
+
+          <h3>
+            엔씨네이처는 창조적 발상을 통한 지속적 혁신,<br />
+            첨단기술을 바탕으로 인류의 건강하고 행복한 삶의 가치를<br />
+            창출하는 글로벌 기업으로 거듭나고 있습니다.
+          </h3>
+          <a href="" class="btn hover_btn hover_btn2 mobile_btn">엔씨네이처 STORY ></a>
+        </div>
+        <div class="visual3_img">
+          <img src="./media/CK_yaytg138779.jpg" alt="이미지" />
+        </div>
+      </div>
+      <div class="main_visual main_visual4">
+        <iframe src="https://www.youtube.com/embed/WlTkOTR7UJc" title="💖일상이 홀리데이가 되는 오스티 로맨스 뱅쇼🍹" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="main_visual main_visual5">
+        <div class="visual5_txt">
+          <h2>Latest News</h2>
+          <a href="" class="btn_small hover_btn hover_btn2 news_btn">더보기 ></a>
+
+        </div>
+        <div class="visual5_news">
+          <div class="news_box1 news1">
+            <img src="./media/1IMG_0249.jpg" alt="" />
+            <p class="main_news_title news_title" id="news1">
+              <span>22.11.02</span><br />엔씨네이처, 신제품 '해비타 리버랩 오가닉 밀크씨슬'
+              출시
+            </p>
+          </div>
+          <div class="news_box2">
+            <div class="main_news news2">
+              <img src="./media/콤부차.jpg" alt="" />
+              <p class="news_title" id="news2">
+                <span>22.10.19</span><br />엔씨네이처, 프리미엄 건강기능식품 브랜드 '해비타' 론칭
+              </p>
+            </div>
+            <div class="main_news news2">
+              <img src="./media/3.jpg" alt="" />
+              <p class="news_title" id="news3">
+                <span>23.01.04</span><br />엔씨네이처, 이너뷰티 라인 ‘해비타 뷰티랩 글루타치온’ 출시
+              </p>
+            </div>
+            <div class="main_news news2">
+              <img src="./media/havita.jpg" alt="" />
+              <p class="news_title" id="news4">
+                <span>22.10.26</span><br />엔씨네이처, 관절 건강 위한 '해비타 조인트랩 엠에스엠' 출시
+              </p>
+            </div>
+            <div class="main_news news2">
+              <img src="./media/헛개나무.jpg" alt="" />
+              <p class="news_title" id="news5">
+                <span>22.07.21</span><br />오스티(osti), 현대인 필수품 헛개차 출시
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_visual main_visual6" style="display:none;">
+        <div class="visual6_txt">
+          <h1>REAL REVIEW</h1>
+          <h2>생생한 고객의 상품 후기</h2>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+          </div>
+        </div>
+        <div class="visual6_reviews">
+          <div class="reviews">
+            <img src="./media/review_1.png" alt="이미지" />
+
+            <div class="reviews_title">
+              <div class="title_var">
+                <img src="./media/instagram.jpg" alt="이미지" />
+                <p>INSTAGRAM.COM</p>
+                <p></p>
+              </div>
+              <div class="reviews_txt">
+                <p>★★★★★</p>
+                <p>
+                  저는 1년 365일 다이어트중이에요! 다이어트하면 항상 달달한 음료가 마시고 싶어져요.
+                </p>
+                <p>2022.06.03 이****</p>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="reviews">
+            <img src="./media/review_2.png" alt="이미지" />
+
+            <div class="reviews_title">
+              <div class="title_var">
+                <img src="./media/instagram.jpg" alt="이미지" />
+                <p>INSTAGRAM.COM</p>
+                <p></p>
+              </div>
+              <div class="reviews_txt">
+                <p>★★★★★</p>
+                <p>
+                  포화지방, 트랜스지방, 콜레스테롤 zero! 건강하게 안심하게 먹을 수 있어요.
+                </p>
+                <p>2022.06.03 박****</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="reviews">
+            <img src="./media/review_3.png" alt="이미지" />
+
+            <div class="reviews_title">
+              <div class="title_var">
+                <img src="./media/instagram.jpg" alt="이미지" />
+                <p>INSTAGRAM.COM</p>
+                <p></p>
+              </div>
+              <div class="reviews_txt">
+                <p>★★★★★</p>
+                <p>
+                  칼로리 걱정없이 매일 마실 수 있는 음료 !! 17종 혼합유산균 프로바이오틱스 !!
+                </p>
+                <p>2022.06.03 박****</p>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="reviews">
+            <img src="./media/review_4.png" alt="이미지" />
+
+            <div class="reviews_title">
+              <div class="title_var">
+                <img src="./media/instagram.jpg" alt="이미지" />
+                <p>INSTAGRAM.COM</p>
+                <p></p>
+              </div>
+              <div class="reviews_txt">
+                <p>★★★★★</p>
+                <p>
+                  맛있는 거 먹는데 15kcal 정도면 충분한 음료는? 오스티 콤부차 매일매일 마셔요!
+                </p>
+                <p>2022.06.03 강****</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="reviews">
+            <img src="./media/review_5.png" alt="이미지" />
+
+            <div class="reviews_title">
+              <div class="title_var">
+                <img src="./media/instagram.jpg" alt="이미지" />
+                <p>INSTAGRAM.COM</p>
+                <p></p>
+              </div>
+              <div class="reviews_txt">
+                <p>★★★★★</p>
+                <p>
+                  따뜻한 뱅쇼 좋아해서 겨울에 투썸에서 즐겨 마셨는데 이젠 커피숍 안가고 집에서 간편하게 즐길 수 있어서 좋아요
+                </p>
+                <p>2022.06.03 오****</p>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="reviews">
+            <img src="./media/review_6.png" alt="이미지" />
+
+            <div class="reviews_title">
+              <div class="title_var">
+                <img src="./media/instagram.jpg" alt="이미지" />
+                <p>INSTAGRAM.COM</p>
+                <p></p>
+              </div>
+              <div class="reviews_txt">
+                <p>★★★★★</p>
+                <p>
+                  요즘핫한 와인음료 뱅쇼! 겨울에 뜨끈하게 끓여마시는건줄 알았는데 파우치에 가득 담겨있어서 넘나 편해요
+                </p>
+                <p>2022.06.03 한****</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="reviews">
+            <img src="./media/review_7.png" alt="이미지" />
+
+            <div class="reviews_title">
+              <div class="title_var">
+                <img src="./media/instagram.jpg" alt="이미지" />
+                <p>INSTAGRAM.COM</p>
+                <p></p>
+              </div>
+              <div class="reviews_txt">
+                <p>★★★★★</p>
+                <p>
+                  "오스티 로맨스 뱅쇼" 100ml x 30입 직접 뱅쇼를 끓이려면 많은 재료와 시간이 소요되지만 오스티는 간편합니다.
+                </p>
+                <p>2022.06.03 박****</p>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="reviews">
+            <img src="./media/review_8.png" alt="이미지" />
+
+            <div class="reviews_title">
+              <div class="title_var">
+                <img src="./media/naver.jpg" alt="이미지" />
+                <p>BLOG.NAVER.COM</p>
+                <p>와인음료 오스티 로맨스 겨울 추천 상품</p>
+              </div>
+              <div class="reviews_txt">
+                <p>★★★★★</p>
+                <p>
+                  뱅쇼 좋아하는 분들 계시지요? 저는 겨울 되면 투썸 가서 뱅쇼 음료 사 마시거든요.
+                </p>
+                <p>2022.06.03 오****</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- main container end -->
+    <!-- start menu_container -->
+    <!-- sub1 start -->
+    <div class="menu_container menu_company">
+      <div class="company_wrap">
+        <h1>엔씨네이처</h1>
+        <h2>COMPANY</h2>
+        <div class="company_visual1">
+          <div class="txt">
+            <p>Our Passion Your Health<br>with NC NATURE</p>
+            <p>우리에게 가장 중요한 것은 고객의 건강하고 행복한 삶입니다.<br>더욱더 안전하고 혁신적인 제품을 선보이기 위해 자연의 건강한 원료들을<br>지속적으로 발굴하여 우리의 세상을 더욱 아름답고
+              빛나게 하겠습니다.<br><br> 고객을 향한 변치 않는 우리의 열정으로<br> 더 건강한 내일을 만들어 갑니다.</p>
+            <p>(주) 엔씨네이처</p>
+          </div>
+        </div>
+        <div class="company_visual2">
+          <h2>ABOUT NC NATURE</h2>
+          <p>효능이 입증된 좋은 원료와 자연에서 얻어지는 천연 원료를 기반으로<br>
+            나이대별 건강 문제를 해결하도록 도움을 주는 건강기능성식품과 우리 생활을 풍요롭고 아름답게<br>
+            만들어주는 이너뷰티 식품과 화장품 등을 개발하고 있습니다.<br><br>
+
+            고품질, 고기능, 합리적인 가격의 제품을 개발하여 삶의 질과 가치를 높여<br />
+            Well-being Life을 누릴 수 있도록 개발에 힘쓰겠습니다.
+
+          </p>
+          <div class="set_img">
+            <div class="set_img_box">
+              <div class="set_img_wrap">
+                <img src="./media/사무실.jpg" alt="">
+              </div>
+              <div class="set_img_box_title">
+                <h2>Seoul Headquarter</h2>
+                <span class="bar"></span>
+                <p>신상품 기획/마케팅</p>
+              </div>
+            </div>
+            <div class="set_img_box">
+              <div class="set_img_wrap">
+                <img src="./media/CK_cm08262922.jpg" alt="">
+              </div>
+              <div class="set_img_box_title">
+                <h2>R&D Laboratory</h2>
+                <span class="bar"></span>
+                <p>연구개발 / 품질테스트</p>
+              </div>
+            </div>
+            <div class="set_img_box">
+              <div class="set_img_wrap">
+                <img src="./media/CK_wmtg165301.jpg" alt="">
+              </div>
+              <div class="set_img_box_title">
+                <h2>Seoul Headquarter</h2>
+                <span class="bar"></span>
+                <p>물류센터 / 상품QC</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="company_visual3">
+          <h2>COMPANY PROMISE</h2>
+          <div class="visual3_box">
+            <img src="./media/500x435_1.jpg" alt="img">
+            <div class="company_visual3_txt">
+              <h2>Happy & Healthy</h2>
+              <h2>제품을 통해 행복감과 건강을 향유해야 한다는 원칙</h2>
+              <p>시대와 세대, 성별을 어울르는 제품을 통해<br>다양성을 존중하며 모든 이들의 건강과 행복을 전달합니다.</p>
+            </div>
+          </div>
+          <div class="visual3_box left">
+            <img src="./media/500x435_2.jpg" alt="img">
+            <div class="company_visual3_txt">
+              <h2>Change</h2>
+              <h2>트랜드를 앞서가는 감각</h2>
+              <p>빠르게 변화하는 시장속에서 엔씨네이처는 많은 시간과 자원을 투자하여<br>엔씨네이처의 발전을 위해 최선을 다하여 트랜드를 선도하고 있습니다.</p>
+            </div>
+          </div>
+          <div class="visual3_box">
+            <img src="./media/CK_cb036114793.jpg" alt="img">
+            <div class="company_visual3_txt">
+              <h2>Honesty</h2>
+              <h2>원칙을 준수하는 올바른 제품</h2>
+              <p>엔씨네이처는 섭취 또는 몸에 닿는 제품들을 생산하고 있기에<br>정직한 제품을 만드는 것이 매우 중요합니다.<br>엔씨네이처는 고객을 기만하지 않고 안전하고 정직한 제품만을 생산하고
+                있습니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="company_visual4">
+          <h1>CI</h1>
+          <h2>자연, 그대로를 담다.</h2>
+          <div class="visual4_box">
+            <p>Nutritioin Care From Nature<br>
+              엔씨네이처는 자연에서 오는 섭리와 본연의 성분을 그대로 담아내어 <br>
+              인간의 몸에 모든 영양 관리(Nutritioin Care)를 최고로 끌어올 수 있는<br>
+              상품만을 연구하고 제공하는 것을 목표로 하고 있습니다. <br><br>
+
+              엔씨네이처 로고의 심볼은 싱그러운 풀잎의 형태를 본떠서 자연 그대로를<br>
+              담은 브랜드임을 나타냈으며, <br>사방으로 그려진 풀잎 모양은 글로벌로<br>
+              뻗어나가겠다는 엔씨네이처의 포부를 나타내고 있습니다.
+            </p>
+            <div class="visual4_box_logo">
+              <img src="./media/nc_logo2.jpg" alt="엔씨네이처 로고">
+              <a href="./media/nc_logo2.jpg" download
+                class="down_logo sub_btn btn_small btn_small2 hover_btn hover_btn2">로고 AI 다운받기</a>
+            </div>
+          </div>
+          <div class="visual4_box2">
+            <h2>브랜드 컬러</h2>
+            <div class="brand_color">
+              <div class="color_box">
+                <p></p>
+                <p>#16322a</p>
+                <p>C : 82%, M : 55%, Y : 71%, K : 64%</p>
+              </div>
+              <div class="color_box">
+                <p></p>
+                <p>#47a141</p>
+                <p>C : 75%, M : 13%, Y : 100%, K : 1%</p>
+              </div>
+              <div class="color_box">
+                <p></p>
+                <p>#c3e088</p>
+                <p>C : 26%, M : 0%, Y : 60%, K : 0%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <!-- sub1 end -->
+    <!-- sub2 start -->
+    <div class="menu_container menu_brand">
+      <div class="brand_wrap">
+        <div class="brand_visual1">
+          <h1>엔씨네이처</h1>
+          <h2>Meet Our Brands</h2>
+          <div class="brand_visual1_img">
+            <img src="./media/1IMG_8044.jpg" alt="img">
+          </div>
+        </div>
+        <div class="brand_visual2">
+          <div class="brand_visual2_box">
+            <div class="brand_visual2_logo">
+              <img src="./media/오스티 로고.png" alt="img">
+            </div>
+            <div class="brands_txt">
+              <h2>Tea & Health Creator</h2>
+              <p>
+                일상 속 여유는 그리 거창한 일이 아닐지도 몰라요. <br>
+                약간의 시간, 느긋한 마음 그리고 티 한잔이면 충분하지요. <br><br>
+
+                오스티는 고객의 건강한 삶과 행복한 여유를 제공하기 위해 노력합니다.<br>
+                언제 어디서나 간편하게 즐길 수 있으면서도 맛의 깊이를 더한 차별화된 브랜드<br>
+                고객이 언제든 안심하고 찾을 수 있는 안전한 제품을 선보이기 위한 노력은<br>
+                어떤 상황에서도 결코 양보할 수 없는 오스티의 소중한 가치입니다.<br>
+                <br>
+                일상 속 건강관리를 맛있고 간편하게!<br>
+                남녀노소 누구나 바쁜 생활 속에서도 쉽게 섭취가 가능하도록 휴대와 음용이 간편하고<br>
+                기호도를 높여 맛있게 즐길 수 있는 건강식품을 제공하였습니다. <br>
+
+
+              </p>
+            </div>
+          </div>
+
+          <div class="brand_visual2_box">
+            <div class="brand_visual2_logo">
+              <img src="./media/해비타 기본형 로고.png" alt="img">
+            </div>
+            <div class="brands_txt">
+
+              <h2>Havita is a Habit</h2>
+              <a id="havita_go" href="https://www.havita.co.kr/main/index.php" target="_blank"
+                class="btn hover_btn">Havita 홈페이지 바로가기</a>
+
+              <p>
+                사람들의 일상에 자연스럽게 녹아들어 해비타를 섭취하는 것이 습관이 되게하고<br>
+                활력을 불어넣는 건강식품을 제공하는 것이 브랜드 목표입니다. <br><br>
+
+                사람은 혼자 살아갈 수 없습니다. 함께 살아가는 공간에는 다양한 세대가 존재하며,<br>
+                그 세대안에는 나의 어머니가 있을 수 있고,나의 자식이 있을 수 있습니다.<br><br>
+
+                그들과 오랜시간을 나누고 싶은 애틋함이 담겨있기 때문에 해비타는 ‘사람과 세대의 공존’이라는<br>
+                브랜드 철학을 갖고 있으며, 내 가족이 먹는다는 마음으로 최고의 성분을 고집하고,<br>
+                사람들의 니즈에 최선을 다한 제품만을 제공합니다.
+
+
+              </p>
+            </div>
+          </div>
+
+          <div class="brand_visual2_box">
+            <div class="brand_visual2_logo">
+              <img src="./media/카페틴 로고.png" alt="img">
+            </div>
+            <div class="brands_txt">
+              <h2>"Make Me Young"<br>The Beginning Of The Day</h2>
+              <p>
+                당신의 삶을 건강하고 아름답게 변화시키는 지금까지 경험하지 못했던<br>
+                헤어케어를 선보이기 위해 카페틴은 특별한 원칙을 추구합니다.<br><br>
+
+                사람의 첫인상을 결정짓는 한 요소인 헤어에 콤플렉스가 없는 사람은 과연 몇 %가 될까요?<br>
+                최근 헤어에 콤플렉스를 가진 연령대가 빠른 추세로 낮아지며, 카페틴 연구진은 1차원적으로<br>
+                사람들의 니즈에 초점을 맞춰 케어전용 샴푸를 개발해냅니다.<br><br>
+
+                많은 것을 담기보다는 꼭 필요한 성분만을 효율적으로 배합하여 최적의 솔루션을 제시하는<br>
+                카페틴으로 일상의 만족감을 충족시켜보세요!
+
+
+              </p>
+            </div>
+          </div>
+
+          <div class="brand_visual2_box">
+            <div class="brand_visual2_logo">
+              <img src="./media/seoul_logo.jpg" alt="img">
+            </div>
+            <div class="brands_txt">
+              <h2>Food & LifeStyle Creative</h2>
+              <p>
+                지금 가장 핫한 음식이 무엇인지 아시나요? <br>
+                빠른 트렌드를 이해하고 서울의 맛을 재해석하는 '서울시즌' <br><br>
+
+                맛있는 음식, 삶의 가장 큰 즐거움<br>
+                그렇지만 건강한 식생활 문화는 우리에게 꼭 중요하지요. <br><br>
+
+                세대별 니즈를 파악한 고객맞춤형 제품부터 트렌디하고 독창적인 제품까지<br>
+                까다롭고 엄격하게, 이런게 우리의 스타일, 서울 트렌드의 시작!
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="brand_visual3">
+          <p class="visual3_block"></p>
+          <h1>All Products</h1>
+          <h2>엔씨네이처의 상품을 소개합니다.</h2>
+
+          <div class="visual3_product_wrap">
+            <div class="visual3_product">
+              <div class="visual3_product_box">
+                <div class="product_img_box">
+                  <img src="./media/osti_seoritae_22.jpg" alt="">
+                </div>
+                <div class="product_txt">
+                  <h2>오스티</h2>
+                  <p class="ct">서리태 검은콩 리얼베이스</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="visual3_product">
+              <div class="visual3_product_box">
+                <div class="product_img_box">
+                  <img src="./media/oriental_raisin_22.jpg" alt="">
+                </div>
+                <div class="product_txt">
+                  <h2>오스티</h2>
+                  <p class="ct">헛개나무 리얼베이스</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="visual3_product">
+              <div class="visual3_product_box">
+                <div class="product_img_box">
+                  <img src="./media/osti_secret_kombu_cha_22_4.jpg" alt="">
+                </div>
+                <div class="product_txt">
+                  <h2>오스티</h2>
+                  <p class="ct">시크릿 콤부차 (레몬)</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="visual3_product">
+              <div class="visual3_product_box">
+                <div class="product_img_box">
+                  <img src="./media/osti_vinchuad_22_4.jpg" alt="">
+                </div>
+                <div class="product_txt">
+                  <h2>오스티</h2>
+                  <p class="ct">로맨스 뱅쇼</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="visual3_product">
+              <div class="visual3_product_box">
+                <div class="product_img_box">
+                  <img src="./media/havita_brain_lab_22.jpg" alt="">
+                </div>
+                <div class="product_txt">
+                  <h2>해비타</h2>
+                  <p class="ct">브레인랩 포스파티딜세린</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="visual3_product">
+              <div class="visual3_product_box">
+                <div class="product_img_box">
+                  <img src="./media/havita_liver_milkthistle_22.jpg" alt="">
+                </div>
+                <div class="product_txt">
+                  <h2>해비타</h2>
+                  <p class="ct">리버랩 오가닉 밀크씨슬</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="visual3_product">
+              <div class="visual3_product_box">
+                <div class="product_img_box">
+                  <img src="./media/havita_Joint_rap_22.jpg" alt="">
+                </div>
+                <div class="product_txt">
+                  <h2>해비타</h2>
+                  <p class="ct">조인트랩 엠에스엠</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="visual3_product">
+              <div class="visual3_product_box">
+                <div class="product_img_box">
+                  <img src="./media/havita_beauty_lab_22.jpg" alt="">
+                </div>
+                <div class="product_txt">
+                  <h2>해비타</h2>
+                  <p class="ct">뷰티랩 글루타치온</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+        </div>
+
+
+      </div>
+    </div>
+    <!-- sub2 end -->
+    <!-- sub3 start -->
+    <div class="menu_container menu_story">
+      <div class="story_wrap">
+        <div class="story_visual1">
+          <h2>NC NATURE STORY</h2>
+          <h1>시대의 변화, 트렌드의 흐름을 선도하며<br>엔씨네이처의 발자취가 현실에 안주하지 않는 도전 정신을 대변합니다.</h1>
+          <div class="story_visual1_box">
+            <div class="story_visual1_img">
+
+              <img src="./media/CK_cb007002191.jpg" alt="img">
+
+            </div>
+            <div class="story_visual1_txt">
+              <h2>건강기능식품 및 기능성표시 식품 개발</h2>
+              <p>연령별 건강문제를 파악하여 이를 예방 /<br>
+                해결해주는 건강기능식품 및 기능성표시 식품,<br>
+                특수영양식품(체중조절용 조제식품 포함) 등을 개발</p>
+            </div>
+          </div>
+          <div class="story_visual1_box">
+            <div class="story_visual1_img">
+              <img src="./media/CK_cm08297341.jpg" alt="img">
+            </div>
+            <div class="story_visual1_txt">
+              <h2>기능성 화장품 개발</h2>
+              <p>탈모, 트러블, 기미, 주름 등 피부 문제를 적극적으로<br>해결 및 예방해주는 기능성 화장품 개발</p>
+            </div>
+          </div>
+          <div class="story_visual1_box">
+            <div class="story_visual1_img">
+
+              <img src="./media/CK_cb036189752.jpg" alt="img">
+            </div>
+            <div class="story_visual1_txt">
+              <h2>천연 식품 개발</h2>
+              <p>식생활과 연게하여 자연에서 얻어지는 안전한 원료를<br>활용한 천연 및 유기농 식품을 개발</p>
+            </div>
+          </div>
+          <div class="story_visual1_box">
+            <div class="story_visual1_img">
+
+              <img src="./media/CK_wmtg182717.jpg" alt="img">
+            </div>
+            <div class="story_visual1_txt">
+              <h2>의료용품 개발</h2>
+              <p>T.O.P에 맞는 퍼스널 헬스케어용 의료용품을 개발</p>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="story_visual2">
+          <h2>CERTIFICATE</h2>
+          <div class="certification">
+            <p>
+              인증서
+            </p>
+            <p>
+              특허증
+            </p>
+          </div>
+          <div class="certification_imgs">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sub3 end -->
+    <!-- sub4 start -->
+    <div class="menu_container menu_news">
+      <div class="news_wrap">
+
+
+        <div class="main_visual main_visual5">
+          <h2>Latest News</h2>
+
+          <div class="visual5_news">
+            <div class="news_box1 news1">
+              <div class="news_box1_img">
+                <img src="./media/1IMG_0249.jpg" alt="" />
+              </div>
+              <p class="main_news_title news_title white_txt" id="news6">
+                <span>22.11.02</span><br />엔씨네이처, 신제품 '해비타 리버랩 오가닉 밀크씨슬' 출시
+              </p>
+            </div>
+            <div class="news_box1 news1">
+              <div class="news_box1_img">
+                <img src="./media/콤부차.jpg" alt="" />
+              </div>
+              <p class="main_news_title news_title white_txt" id="news7">
+                <span>22.10.19</span><br />엔씨네이처, 프리미엄 건강기능식품 브랜드 '해비타' 론칭
+              </p>
+            </div>
+            <div class="news_box1 news1">
+              <div class="news_box1_img">
+                <img src="./media/3.jpg" alt="" />
+              </div>
+              <p class="main_news_title news_title white_txt" id="news8">
+                <span>23.01.04</span><br />엔씨네이처, 이너뷰티 라인 '해비타 뷰티랩 글루타치온' 출시
+              </p>
+            </div>
+            <div class="news_box1 news1">
+              <div class="news_box1_img">
+                <img src="./media/havita.jpg" alt="" />
+              </div>
+              <p class="main_news_title news_title white_txt" id="news9">
+                <span>22.10.26</span><br />엔씨네이처, 관절 건강 위한 '해비타 조인트랩 엠에스엠' 출시
+              </p>
+            </div>
+            <div class="news_box1 news1">
+              <img src="./media/헛개나무.jpg" alt="" />
+              <p class="main_news_title news_title white_txt" id="news10">
+                <span>22.07.21</span><br />오스티(osti), 현대인 필수품 헛개차 출시
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- sub4 end -->
+    <!-- sub5 start -->
+    <div class="menu_container menu_contact">
+      <div class="contact_wrap">
+        <h2>문의하기</h2>
+        <h1>
+          엔씨네이처 관련된 내용을 문의해주세요.<br />최대한 빠른시간내에
+          담당자가 연락 드리도록 하겠습니다.
+        </h1>
+
+        <form action="mail.php" method="POST">
+          <label for="select">구분<select id="category" name="category">
+              <option value="disabled" disabled selected>선택해주세요.</option>
+              <option value="문의">문의</option>
+              <option value="제휴">제휴</option>
+              <option value="기타">기타</option>
+            </select></label>
+          <label for="">
+            <p>제목<span style="color: red">*</span></p>
+            <input id="title" name="title" type="text" placeholder="제목을 입력해주세요." required />
+          </label>
+          <label for="name">
+            <p>이름<span style="color: red">*</span></p>
+            <input id="name" name="name" type="text" placeholder="이름을 입력해주세요." required />
+          </label>
+          <label for="tel">
+            <p>연락처<span style="color: red">*</span></p>
+            <input type="tel" id="phone" name="phone" placeholder="연락처를 입력해주세요." required />
+          </label>
+          <label for="email">
+            <p>이메일<span style="color: red">*</span></p>
+            <input type="email" id="email" name="email" placeholder="이메일을 입력해주세요." required />
+          </label>
+          <label for="txt">
+            <p>문의사항<span style="color: red">*</span></p>
+            <textarea type="text" id="content" name="content" placeholder="문의를 남겨주세요." required /></textarea>
+          </label>
+          <label for="check" class="chk">
+            <input type="checkbox" id="chk" required />
+            <p>개인정보 수집 이용동의</p>
+            <a href="엔씨네이처_개인정보처리방침_20230101.html" class="btn_small2" target="_blank">자세히보기</a>
+          </label>
+
+          <button id="submit" type="submit">접수완료</button>
+        </form>
+        <div class="terms">
+          개인정보의 수집 및 이용 등에 관한 내용입니다.<br /><br />
+
+          <span><strong>[수집하는 개인정보의 항목]</strong></span><br />
+          - 이름, 이메일, 연락처, 외 선택항목<br />
+          - 수집/이용목적 : 문의 접수 및 결과 회신 / 원활한 서비스 제공 등<br /><br />
+
+          <span><strong>[개인정보의 보유 및 이용기간]</strong></span><br />
+          - 원칙적으로 개인정보의 수집 또는 제공받은 목적 달성 시 지체 없이
+          파기합니다.<br />
+          - 단, 관계법령의 규정에 의하여 보전할 필요가 있는 경우 일정기간 동안
+          개인정보를 보관할 수 있습니다.<br /><br />
+
+          귀하는 본 동의를 거부할 수 있는 권리가 있으며, 이 경우 문의하기
+          서비스 이용이 제한될 수 있습니다.<br />
+          그 밖의 사항은 엔씨네이처 개인정보처리방침을 준수합니다.<br />
+          개인정보처리방침에 대한 자세한 사항은 엔씨네이처 홈페이지를 확인
+          부탁드립니다.<br />
+        </div>
+      </div>
+    </div>
+    <!-- sub5 end -->
+    <!-- menu container end -->
+
+    <div class="footer">
+      <div class="foot_logo">
+        <img src="./media/foot_logo.png" alt="로고" />
+        <div class="footer_mobile_terms">
+          <span style="float:left"><a href="엔씨네이처_이용약관_20230101.html" target="_blank"
+              style="font-size:16px;color:white;">이용 약관</a></span>
+          <span style="float:left;font-size:12px;color:white;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+          <span style="float:left"><a href="엔씨네이처_개인정보처리방침_20230101.html" target="_blank"
+              style="font-size:16px;color:white;">개인정보처리방침</a></span>
+        </div>
+      </div>
+      <div class="footer_plus">
+        엔씨네이처 사업자 정보
+      </div>
+      <div class="foot_txt">
+        대표 : 허인정<br />
+        주소 : 서울특별시 강남구 자곡로 201, 922호(자곡동, 강남더샾라르고)<br>
+        사업자등록번호 : 413-88-02712<br />
+        팩스번호 : 031-624-1976<br />
+        건강기능식품판매업 : 제 2022-0130717호<br />
+        메일 : ncnature@mwd.kr<br />
+        copyright (c) dealpang.com all rights reserved.
+      </div>
+      <div class="foot_tell">
+        <p>고객 센터</p>
+        <a href="tel:15448663">1544 - 8804</a>
+        <p>
+          평일 10:00~17:00<br />
+          점심시간 12:00~13:00
+        </p>
+        <div style="display:inline;">
+          <span style="float:left"><a href="엔씨네이처_이용약관_20230101.html" target="_blank"
+              style="font-size:16px;color:white;">이용 약관</a></span>
+          <span style="float:left;font-size:12px;color:white;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+          <span style="float:left"><a href="엔씨네이처_개인정보처리방침_20230101.html" target="_blank"
+              style="font-size:16px;color:white;">개인정보처리방침</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- wrapper end -->
+</body>
+
+</html>
